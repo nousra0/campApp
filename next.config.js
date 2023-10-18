@@ -4,6 +4,7 @@ const nextConfig = {
         appDir: true,
       },
       output: 'export',
+      basePath: '/camp-app'
 }
 
 module.exports = nextConfig
