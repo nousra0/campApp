@@ -4,6 +4,7 @@ const nextConfig = {
         appDir: true,
       },
       output: 'export',
+      assetPrefix: '/camp-app'
 }
 
 module.exports = nextConfig
