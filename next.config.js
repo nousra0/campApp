@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-      basePath: '/camp-app',
-      output: "export"
+    experimental: {
+        appDir: true,
+      },
+      output: 'export',
+      basePath: '/camp-app'
 }
 
 module.exports = nextConfig
