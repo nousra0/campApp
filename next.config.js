@@ -1,10 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    experimental: {
-        appDir: true,
-      },
-      output: 'export',
-      basePath: '/camp-app'
-}
+const nextConfig = {}
 
 module.exports = nextConfig
