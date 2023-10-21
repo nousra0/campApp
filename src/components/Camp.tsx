@@ -1,4 +1,4 @@
-import { PEOPLE_URL } from "@/contants"
+import { PEOPLE_URL } from "@/src/contants"
 import Image from "next/image"
 
 interface CampProps {
