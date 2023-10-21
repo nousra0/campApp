@@ -1,4 +1,4 @@
-import { NAV_LINKS } from "@/src/contants";
+import { NAV_LINKS } from "@/contants";
 import Link from "next/link";
 import React from "react";
 import Button from "./Button";

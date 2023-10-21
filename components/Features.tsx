@@ -1,4 +1,4 @@
-import { FEATURES } from '@/src/contants'
+import { FEATURES } from '@/contants'
 import Image from 'next/image'
 import React from 'react'
 
