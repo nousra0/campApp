@@ -30,11 +30,11 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'bg-img-1': "url(image1.png)",
-        'bg-img-2': "url(image2.png)",
-        'feature-bg': "url(feature-bg.png)",
-        'pattern': "url(pattern.png)",
-        'pattern-2': "url(pattern-bg.png)",
+        'bg-img-1': "url(/image1.png)",
+        'bg-img-2': "url(/image2.png)",
+        'feature-bg': "url(/feature-bg.png)",
+        'pattern': "url(/pattern.png)",
+        'pattern-2': "url(/pattern-bg.png)",
       },
       screens: {
         xs: '400px',
