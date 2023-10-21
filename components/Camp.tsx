@@ -37,7 +37,7 @@ const Camp = () => {
   return (
     <section className='2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20'>
       <div className='hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]'>
-        <CampSite backgroundImage="bg-[url(image1.png)]" title="Camp1" subtitle="Camp name" peopleJoined="50+ Joined" />
+        <CampSite backgroundImage="url(image1.png)" title="Camp1" subtitle="Camp name" peopleJoined="50+ Joined" />
 
         <CampSite backgroundImage="bg-bg-img-2" title="Camp2" subtitle="somewhere" peopleJoined="50+ Joined" />
       </div>
