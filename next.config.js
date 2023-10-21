@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  distDir: 'dist'
+  reactStrictMode: true,
+  images: {
+    loader: "akamai",
+    path: ""
+  }
 }
 
 module.exports = nextConfig
