@@ -5,7 +5,8 @@ const nextConfig = {
   images: {
     loader: "akamai",
     path: ""
-  }
+  },
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/camp-app' : '',
 }
 
 module.exports = nextConfig
